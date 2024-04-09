@@ -11,17 +11,12 @@
 
 
 import asyncio
-import certifi
-import motor.motor_asyncio
+from motor.motor_asyncio import AsyncIOMotorClient
 
 # MongoDB Connection and Database
 MONGO_URI = "mongodb+srv://ranvijay:ranvijay@cluster0.as3t4fm.mongodb.net/students"
 
-# Create an event loop
-loop = asyncio.get_event_loop()
-
-# Create a Motor client
-client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_URI, tlsCAFile=certifi.where(), io_loop=loop)
+client = AsyncIOMotorClient(MONGO_URI)
 
 # Access the database
 db = client["students"]
