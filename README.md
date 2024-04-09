@@ -33,27 +33,33 @@ Second Step: Need to install the following in your invirenment:
 #### Below are the details about Project
 
 POST API: {\students\}
-![image](https://github.com/ranvijay12345/Library-Management-System-Backend-APIs-Task/assets/54628721/5f5dd606-8c3c-4e41-96dc-7c691be6b8a5)
+![image](https://github.com/ranvijay12345/Library-Management-System-Backend-API-Task/assets/54628721/d263cf8e-f0a5-4251-bac4-3d0ee7ae7bed)
+
 
 GET API: {\students\}
-![image](https://github.com/ranvijay12345/Library-Management-System-Backend-APIs-Task/assets/54628721/02930d4a-f2c8-45fc-b3b6-f1c95da7624b)
+![image](https://github.com/ranvijay12345/Library-Management-System-Backend-API-Task/assets/54628721/4d7a4c3c-fc64-4784-829c-0a95446d6346)
+
 
 GET API: {\students\{id}}
-![image](https://github.com/ranvijay12345/Library-Management-System-Backend-APIs-Task/assets/54628721/74a5e869-9c32-4121-93c6-c2897ccb1f0d)
+![image](https://github.com/ranvijay12345/Library-Management-System-Backend-API-Task/assets/54628721/dd1554d2-6d8a-410f-b396-935e6dbfb7d5)
+
 
 PATCH API: {\students\{id}}
-![image](https://github.com/ranvijay12345/Library-Management-System-Backend-APIs-Task/assets/54628721/c9185247-f482-4fbd-b1bd-89d000117b1b)
+![image](https://github.com/ranvijay12345/Library-Management-System-Backend-API-Task/assets/54628721/583147f5-c4f0-41e1-97c6-98ba7ad9f593)
+
 
 After Updation data:
-![image](https://github.com/ranvijay12345/Library-Management-System-Backend-APIs-Task/assets/54628721/97c51f13-cc51-4cf1-a01c-c4763e533756)
+![image](https://github.com/ranvijay12345/Library-Management-System-Backend-API-Task/assets/54628721/5c2f4adc-aff9-45d2-8d78-b9625d20b042)
+
 
 DELETE API: {\students\{id}}
-![image](https://github.com/ranvijay12345/Library-Management-System-Backend-APIs-Task/assets/54628721/b8db8af4-5d0f-4bcf-8b4e-52e49a296474)
+![image](https://github.com/ranvijay12345/Library-Management-System-Backend-API-Task/assets/54628721/910d56cd-9325-46c0-94e2-b7777f72e1f6)
+
 
 After Deletion, details of this id is not present in database:
-![image](https://github.com/ranvijay12345/Library-Management-System-Backend-APIs-Task/assets/54628721/8e4ceee8-7789-4253-8b13-667be292f246)
-
+![image](https://github.com/ranvijay12345/Library-Management-System-Backend-API-Task/assets/54628721/b11f86f4-7b3f-47f3-b5df-37fd75e10eed)
 
 
 MongoDB Compass Database Structure:
-![image](https://github.com/ranvijay12345/Library-Management-System-Backend-APIs-Task/assets/54628721/554f97a1-5406-4744-9762-f5b84a2609d0)
+![image](https://github.com/ranvijay12345/Library-Management-System-Backend-API-Task/assets/54628721/f4dcb9f7-6452-4a1a-ad08-e17f28e19c16)
+
