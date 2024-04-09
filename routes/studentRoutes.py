@@ -19,6 +19,7 @@ async def add_students(student: StudentModel):
         raise HTTPException(status_code=500, detail="Failed to create student")
 
 
+
 # get all student details
 @studentApp.get("/students")
 async def get_students():
@@ -29,7 +30,6 @@ async def get_students():
 
     # Convert the list of documents to JSON
     return json.loads(json_util.dumps(students_list))
-
 
 @studentApp.get("/students/{student_id}")
 async def get_student(student_id: str):
@@ -82,3 +82,10 @@ async def remove_student(student_id: str):
         return {"status": "200 OK: Student Deleted"}
     else:
         raise HTTPException(status_code=404, detail="Student not found")
+
+
+# get all student details
+@studentApp.get("/")
+async def get_students():
+    # Convert the list of documents to JSON
+    return {"status": "200 OK: Server connected"}
