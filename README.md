@@ -5,25 +5,31 @@ Library Management System | Backend API Task
 ### Library Management System, specifically the backend layer of the application. Built the API Layer of this system, mainly CRUD Operation, Details of each API is given below.
 
 
-## INtegration Requirements
+### INtegration Requirements
 
 First Step: Clone Poject from git.
 
-$ git clone https://github.com/ranvijay12345/Library-Management-System-Backend-API-Task.git
+    $ git clone https://github.com/ranvijay12345/Library-Management-System-Backend-API-Task.git
 
 Second Step: Need to install the following in your invirenment: 
 
-$ pip install fastapi
-$ pip install pymongo 
-$ pip install "uvicorn[standard]" 
-$ pip install MongoClint 
+    $ pip install fastapi
 
-Third Step: To run the application, Use the below command
+    $ pip install pymongo
 
-$  uvicorn index:app --reload 
+    $ pip install "uvicorn[standard]"
+
+    $ pip install MongoClint
+  
 
 
-## Below are the details about Project
+### Running the project
+
+    $ uvicorn index:app --reload
+
+
+
+#### Below are the details about Project
 
 POST API: {\students\}
 ![image](https://github.com/ranvijay12345/Library-Management-System-Backend-APIs-Task/assets/54628721/5f5dd606-8c3c-4e41-96dc-7c691be6b8a5)
